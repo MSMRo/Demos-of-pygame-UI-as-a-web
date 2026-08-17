@@ -1,8 +1,15 @@
-# Demo Web 1
+# Demos of pygame project as a web version
 
 This repository contains example projects showing how to run a Pygame application in a web browser using pygbag.
 
 The goal is to make it easy to build a Pygame UI and then run it in the browser without changing the game logic too much. This is a simple example project intended as a starting point for experiments, prototypes, and browser-based game demos.
+
+```bash
+uv run demo/main.py
+```
+![Desktop version](./imgs/desktop_.gif)
+
+
 
 ## Requirements
 
@@ -38,6 +45,8 @@ pygbag demo
 This command starts pygbag and builds the Pygame project so it can run inside a browser.
 
 After it starts, follow the local URL shown in the terminal to open and play the demo in your browser.
+
+![](./imgs/web_gam.gif)
 
 ## Project structure
 
