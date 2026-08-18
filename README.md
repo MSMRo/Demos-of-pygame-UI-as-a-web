@@ -4,13 +4,6 @@ This repository contains example projects showing how to run a Pygame applicatio
 
 The goal is to make it easy to build a Pygame UI and then run it in the browser without changing the game logic too much. This is a simple example project intended as a starting point for experiments, prototypes, and browser-based game demos.
 
-```bash
-uv run demo/main.py
-```
-![Desktop version](./imgs/desktop_.gif)
-
-
-
 ## Requirements
 
 Before starting, make sure you have:
@@ -19,6 +12,22 @@ Before starting, make sure you have:
 - uv installed on your system
 - A modern web browser
 
+# Game jumper
+
+```bash
+$ pygbag game_jump
+```
+
+![](./imgs/game_jumper.gif)
+
+
+# Simple Counter
+
+```bash
+$ uv run demo/main.py
+```
+![Desktop version](./imgs/desktop_.gif)
+
 ## Using uv
 
 This project uses uv to manage dependencies and create the project environment.
@@ -26,7 +35,7 @@ This project uses uv to manage dependencies and create the project environment.
 After cloning the repository, open a terminal in the project root and run:
 
 ```bash
-uv sync
+$ uv sync
 ```
 
 This will install the required dependencies, including:
@@ -39,7 +48,7 @@ This will install the required dependencies, including:
 Once the environment is ready, launch the web version of the demo with:
 
 ```bash
-pygbag demo
+$ pygbag demo
 ```
 
 This command starts pygbag and builds the Pygame project so it can run inside a browser.
